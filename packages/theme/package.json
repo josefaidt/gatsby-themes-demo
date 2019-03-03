@@ -1,0 +1,24 @@
+{
+  "name": "@josef/theme",
+  "private": false,
+  "version": "0.0.1",
+  "description": "Practicing making a Gatsby theme",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "gatsby": "^2.0.118",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.0.118",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^0.17.0",
+    "@mdx-js/tag": "^0.17.0",
+    "gatsby-mdx": "^0.3.6",
+    "gatsby-plugin-page-creator": "^2.0.6"
+  }
+}
