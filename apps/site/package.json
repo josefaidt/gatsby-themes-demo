@@ -4,13 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "yarn develop",
-    "develop": "gatsby develop",
+    "start": "rm -rf .cache && yarn develop",
+    "develop": "gatsby --verbose develop",
     "build": "gatsby build"
   },
   "dependencies": {
+    "@josef/theme": "*",
     "gatsby-plugin-playground": "^1.0.6",
-    "theme": "*"
+    "gatsby-source-filesystem": "^2.0.23"
   },
   "devDependencies": {
     "gatsby": "^2.1.19",
