@@ -1,12 +1,19 @@
 module.exports = {
   plugins: [
     `gatsby-plugin-playground`,
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-eslint`,
     {
       resolve: `gatsby-mdx`,
       options: {
         defaultLayouts: {
           default: require.resolve('./src/components/layout.js'),
         },
+        globalScope: `
+          import Header from '${__dirname}/src/components/Header.js'
+
+          export default { Header }
+        `,
       },
     },
     {

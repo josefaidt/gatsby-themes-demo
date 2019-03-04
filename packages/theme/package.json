@@ -8,7 +8,8 @@
   "devDependencies": {
     "gatsby": "^2.0.118",
     "react": "^16.8.1",
-    "react-dom": "^16.8.1"
+    "react-dom": "^16.8.1",
+    "@josef/tools": "*"
   },
   "peerDependencies": {
     "gatsby": "^2.0.118",

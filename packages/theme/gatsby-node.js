@@ -19,7 +19,6 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `)
 
-  console.log(Object.keys(result))
   const pages = result.data.allFile.edges.map(({ node }) => node)
 
   pages.forEach(page => {
