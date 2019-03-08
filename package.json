@@ -5,7 +5,8 @@
   "scripts": {
     "start": "yarn workspace @josef/site run start",
     "lint": "eslint --config ./.config/.eslintrc.js --ignore-path ./.config/.eslintignore .",
-    "lint:fix": "eslint --config ./.config/.eslintrc.js --ignore-path ./.config/.eslintignore --fix ."
+    "lint:fix": "eslint --config ./.config/.eslintrc.js --ignore-path ./.config/.eslintignore --fix .",
+    "build:lib": "yarn workspace @josef/components run build"
   },
   "devDependencies": {
     "@josef/tools": "*"

@@ -11,8 +11,9 @@ module.exports = {
         },
         globalScope: `
           import Header from '${__dirname}/src/components/Header.js'
+          import { Paragraph } from '@josef/components'
 
-          export default { Header }
+          export default { Header, Paragraph }
         `,
       },
     },
